@@ -1,0 +1,28 @@
+Master Prompt Library (V3.0)
+​Geliştirici: Semih Mete Arslan (@swsemih)
+Kapsam: İleri Seviye Lua Scripting, Fotoğraf Manipülasyonu, QA Test Analizi ve Yapay Zeka Entegrasyonu.
+​Bölüm 1: İleri Seviye Lua & Oyun Mekaniği Promtları
+​Bu bölüm, yapay zekayı bir "Junior Developer"dan "Senior Architect" seviyesine taşımak için tasarlanmıştır.
+​1.1. Optimizasyon ve Performans Odaklı Scripting
+​Hedef: Yüksek oyuncu sayılı sunucularda "lag" yaratmayan, task.wait() ve RunService dengeli kodlar yazdırmak.
+​Prompt: "Sen bir Roblox optimizasyon uzmanısın. Yazacağın Lua scripti, sunucu yükünü minimize etmek için 'Event-Driven' mimaride olmalı. Döngüler yerine 'GetPropertyChangedSignal' kullan. Gereksiz 'wait()' komutlarından kaçın ve 'Task Library' (task.spawn, task.defer) kullanarak işlemleri asenkronize et. Kodun bellek sızıntısı (memory leak) yapmadığından emin ol."
+​1.2. Güvenlik ve Anti-Exploit Doğrulama (Server-Side)
+​Hedef: Client tarafındaki verilerin sunucuda doğrulanmasını sağlayan güvenli sistemler kurmak.
+​Prompt: "Roblox sunucu güvenliği üzerine uzmanlaşmış bir geliştirici gibi davran. Yazacağın 'RemoteEvent' işleyicisi, client'tan gelen veriye asla güvenmemeli. Gelen 'magnitude' değerlerini, vuruş mesafelerini ve oyuncu hızını sunucu tarafında (Server-Side) matematiksel olarak doğrula. Hileli veriyi anında tespit edip eylemi iptal eden bir 'Sanity Check' bloğu ekle."
+​1.3. Modüler Programlama (ModuleScripts)
+​Hedef: Tekrar kullanılabilir, profesyonel oyun içi sistemler (envanter, yetenek vb.) tasarlatmak.
+​Prompt: "Bana 'Object-Oriented Programming' (OOP) prensiplerine uygun bir ModuleScript hazırla. Bu modül, [Sistem İsmi] için bir 'Constructor' içermeli ve fonksiyonları merkezi bir tablo üzerinden yönetmeli. Kod, diğer geliştiricilerin kolayca entegre edebileceği kadar temiz ve modüler olmalı."
+​Bölüm 2: QA (Kalite Güvence) ve Hata Analiz Promtları
+​Hataları ayıklamak ve sistem açıklarını raporlamak için kullanılan stratejik komutlar.
+​2.1. Derinlemesine Bug Avcılığı
+​Prompt: "Aşağıdaki Lua kod bloğunu bir QA Engineer gözüyle simüle et. Kodun hangi durumlarda çökeceğini (edge cases), 'nil' değer dönebilecek değişkenleri ve mantıksal çelişkileri bul. Tespit ettiğin hataları 'Ciddiyet Derecesi: Düşük/Orta/Kritik' şeklinde sınıflandırarak raporla."
+​Bölüm 3: Profesyonel Fotoğraf Manipülasyonu & Render
+​Görsel kimliğini güçlendiren, teknik fotoğrafçılık terminolojisine dayalı promtlar.
+​3.1. Premium Portre & Doku Geliştirme (Sony A1 Style)
+​Hedef: Özneyi ve arka planı koruyarak en üst düzey gerçekçiliğe ulaşmak.
+​Prompt: "Portreyi, kişinin kimliğini ve yüz geometrisini %100 koruyarak geliştirin. Arka planı ve ışık yönünü aynen muhafaza edin. Görsel, bir Sony A1 + 85mm f1.4 lens kullanılarak, f1.6 diyafram, ISO 100, 1/200 enstantane hızıyla çekilmiş gibi yeniden oluşturulmalı. Sinematik sığ alan derinliği, editoryal-nötr renk profili ve gerçek cilt dokusu (plastik değil, film grenli) kullanılmalı. Aydınlatmayı mikro kontrast artışı ve yumuşak geçişlerle premium seviyeye yükseltin."
+​3.2. Gece Atmosferi ve Dinamik Renk Teorisi
+​Prompt: "Özneyi, düşük ışıklı bir atmosferde Leica M11 + 35mm Summilux estetiğiyle yeniden oluşturun. Yüzün bir tarafında yumuşak 'Cyan' dolgu ışığı, diğer tarafında derin 'Magenta' gölgeler kullanarak sinematik bir kontrast yaratın. Gözlerdeki netliği ve iris dokusunu maksimuma çıkarın. Dijital noise yerine doğal Leica film greni ekleyin."
+​Bölüm 4: Olumsuz Yönergeler (Negative Prompts)
+​Hatalı sonuçları engellemek için her promtun sonuna eklenen standart blok:
+​"Yeni arka plan eklemeyin, arka planı değiştirmeyin, yüz morfolojisini bozmayın, aşırı yumuşatılmış (plastik) cilt kullanmayın, yapay/podyum aydınlatmasından kaçının."
